@@ -1,7 +1,7 @@
 # Lista de Cursos
 
 ### Objetivo 
-> Bater o record da maior coleção de cursos com e sem Certificado.
+> Bater o record da maior coleção de cursos com e sem Certificado.  
 > Ir a universidade pedir equivalências para a licenciatura e sair de la com Doutoramento e um pacote de amendoins.
 
 ## Cursos
