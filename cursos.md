@@ -8,27 +8,27 @@
 ### Algoritmos
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
-| Curso em Video | [Curso de Algoritmo](http://www.cursoemvideo.com/course/curso-de-algoritmos/) | pt-br | Free | sim |
-| Instituto Tim | [Introdução à lógica de programação](https://cursos.timtec.com.br/course/logicadeprogramacao/intro/) | pt-br | Free |
-| School of Net | [Lógica de Programação](https://www.schoolofnet.com/curso-logica-de-programacao/) | pt-br | Free |
+| Curso em Video | [Curso de Algoritmo](http://www.cursoemvideo.com/course/curso-de-algoritmos/)                        | pt-br | Free | sim |
+| Instituto Tim | [Introdução à lógica de programação](https://cursos.timtec.com.br/course/logicadeprogramacao/intro/)  | pt-br | Free |  -  |
+| School of Net | [Lógica de Programação](https://www.schoolofnet.com/curso-logica-de-programacao/)                     | pt-br | Free |  -  |
 
 ### Android
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
-| Instituto Tim | [Programação Android](https://cursos.timtec.com.br/course/android/intro/) | pt-br | Free |
-| Instituto Tim | [Desenvolvimento de back-end](https://cursos.timtec.com.br/course/backend/intro/) | pt-br | Free |
-| School of Net | [Iniciando com Android](https://www.schoolofnet.com/curso-iniciando-com-android/) | pt-br | Free |
+| Instituto Tim | [Programação Android](https://cursos.timtec.com.br/course/android/intro/)         | pt-br | Free | - |
+| Instituto Tim | [Desenvolvimento de back-end](https://cursos.timtec.com.br/course/backend/intro/) | pt-br | Free | - |
+| School of Net | [Iniciando com Android](https://www.schoolofnet.com/curso-iniciando-com-android/) | pt-br | Free | - |
 
 ### AngularJS
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
-| Instituto Tim | [Desenvolvimento Web com AngularJS](https://cursos.timtec.com.br/course/desenvolvimento-web-com-angularjs/intro/) | pt-br | Free |
-| School of Net | [Angular 2.0: Primeiros passos](https://www.schoolofnet.com/curso-angular-2-0-primeiros-passos/) | pt-br | Free |
+| Instituto Tim | [Desenvolvimento Web com AngularJS](https://cursos.timtec.com.br/course/desenvolvimento-web-com-angularjs/intro/) | pt-br | Free | - |
+| School of Net | [Angular 2.0: Primeiros passos](https://www.schoolofnet.com/curso-angular-2-0-primeiros-passos/)                  | pt-br | Free | - | 
 
 ### CSharp
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
-| Scholl of Net | [Iniciando com C#](https://www.schoolofnet.com/curso-iniciando-com-c/) | pt-br | Free |
+| Scholl of Net | [Iniciando com C#](https://www.schoolofnet.com/curso-iniciando-com-c/) | pt-br | Free | - |
 
 ### Data Science Academy
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
@@ -163,15 +163,15 @@
 ### Python
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
-| Solyd AED | [Python Básico](https://solyd.com.br/treinamentos/python-basico) | pt-br | Free |
-| Curso em Video | [Curso de Python 3 – Mundo 01: Fundamentos](http://www.cursoemvideo.com/course/curso-python-3/) | pt-br | Free |
-| Cousera | [Introdução à Ciência da Computação com Python Parte 1](https://www.coursera.org/learn/ciencia-computacao-python-conceitos) | pt-br | Free |
-| Cousera | [Introdução à Ciência da Computação com Python Parte 2](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2) | pt-br | Free |
-| Udemy | [Python 3 na Web com Django (Básico e Intermediário)](https://www.udemy.com/python-3-na-web-com-django-basico-intermediario/) | pt-br | Free |
-| Udemy | [Python Programming - A Media Approach ](https://www.udemy.com/python-programming-a-media-approach/) | eng | Free |
-| Instituto Tim | [Desenvolvimento com Python](https://cursos.timtec.com.br/course/desenvolvimento-em-python/intro/) | pt-br | Free |
-| School of Net | [Iniciando com python](https://www.schoolofnet.com/curso-iniciando-com-python/) | pt-br | Free |
-| School of Net | [Iniciando com ZF3](https://www.schoolofnet.com/curso-iniciando-com-zf3/)
+| Solyd AED | [Python Básico](https://solyd.com.br/treinamentos/python-basico)                                                            | pt-br | Free | Sim |
+| Curso em Video | [Curso de Python 3 – Mundo 01: Fundamentos](http://www.cursoemvideo.com/course/curso-python-3/)                        | pt-br | Free | Sim |
+| Cousera | [Introdução à Ciência da Computação com Python Parte 1](https://www.coursera.org/learn/ciencia-computacao-python-conceitos)   | pt-br | Free | Sim |
+| Cousera | [Introdução à Ciência da Computação com Python Parte 2](https://www.coursera.org/learn/ciencia-computacao-python-conceitos-2) | pt-br | Free |  -  |
+| Udemy | [Python 3 na Web com Django (Básico e Intermediário)](https://www.udemy.com/python-3-na-web-com-django-basico-intermediario/)   | pt-br | Free |  -  |
+| Udemy | [Python Programming - A Media Approach ](https://www.udemy.com/python-programming-a-media-approach/)                            | eng   | Free |  -  |
+| Instituto Tim | [Desenvolvimento com Python](https://cursos.timtec.com.br/course/desenvolvimento-em-python/intro/)                      | pt-br | Free |  -  |
+| School of Net | [Iniciando com python](https://www.schoolofnet.com/curso-iniciando-com-python/)                                         | pt-br | Free | Sim |
+| School of Net | [Iniciando com ZF3](https://www.schoolofnet.com/curso-iniciando-com-zf3/)                                               | pt-br | Free |  -  |
 
 
 ### Ruby
