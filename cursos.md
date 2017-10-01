@@ -11,33 +11,34 @@
 ## Index
 - [Cursos](#cursos)
     - [Algoritmos](#algoritmos)
-    - [Android](#android)
-    - [AngularJS](#angularjs)
     - [C#](#csharp)
-    - [Data Science Academy](#data-science-academy)
+    - [Data Science](#data-science)
     - [Desenvolvimento de Jogos](#desenvolvimento-de-jogos)
-    - [Electron](#electron)
     - [Empreendedorismo](#empreendedorismo)
     - [Engenharia de Software](#engenharia-de-software)
     - [Git](#git)
     - [GO](#go)
     - [Heroku](#heroku)
     - [HTML 5](#html-5)
-    - [Ionic 2](#ionic-2)
     - [Java](#java)
+        - [Android](#android)
     - [JavaScript](#javascript)
-    - [Laravel](#laravel)
+        - [AngularJS](#angularjs)
+        - [Electron](#electron)
+        - [Ionic 2](#ionic-2)
+        - [Vue.js 2.0](#vue.js-2.0)
     - [Linux](#linux)
     - [Marketing Digital](#marketing-digital)
     - [MongoDB](#mongodb)
     - [MySQL](#mysql)
     - [Office 2016](#office-2016)
     - [PHP](#php)
+        - [Laravel](#laravel)
     - [PhotoShop CC](#photoshop-cc)
     - [Python](#python)
     - [Ruby](#ruby)
     - [Segurança da Informação](#segurança-da-informação)
-    - [Vue.js 2.0](#vue.js-2.0)
+
 
 ## Cursos
 ### Algoritmos
@@ -69,7 +70,7 @@
 | Scholl of Net | [Iniciando com C#](https://www.schoolofnet.com/curso-iniciando-com-c/) | pt-br | Free | - |
 [Inicio][0]
 
-### Data Science Academy
+### Data Science
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Data Science Academy |[Big Data Fundamentos](https://www.datascienceacademy.com.br/public-course?courseid=big-data-fundamentos) | pt-br | Free | Sim |
