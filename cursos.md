@@ -1,16 +1,52 @@
+[0]:#lista-de-cursos
+[1]:https://www.schoolofnet.com/assine
+
+
 # Lista de Cursos
 
 ### Objetivo 
 > Bater o record da maior coleção de cursos com e sem Certificado.  
 > Ir a universidade pedir equivalências para a licenciatura e sair de la com Doutoramento e um pacote de amendoins.
 
+## Index
+- [Cursos](#cursos)
+    - [Algoritmos](#algoritmos)
+    - [Android](#android)
+    - [AngularJS](#angularjs)
+    - [C#](#csharp)
+    - [Data Science Academy](#data-science-academy)
+    - [Desenvolvimento de Jogos](#desenvolvimento-de-jogos)
+    - [Electron](#electron)
+    - [Empreendedorismo](#empreendedorismo)
+    - [Engenharia de Software](#engenharia-de-software)
+    - [Git](#git)
+    - [GO](#go)
+    - [Heroku](#heroku)
+    - [HTML 5](#html-5)
+    - [Ionic 2](#ionic-2)
+    - [Java](#java)
+    - [JavaScript](#javascript)
+    - [Laravel](#laravel)
+    - [Linux](#linux)
+    - [Marketing Digital](#marketing-digital)
+    - [MongoDB](#mongodb)
+    - [MySQL](#mysql)
+    - [Office 2016](#office-2016)
+    - [PHP](#php)
+    - [PhotoShop CC](#photoshop-cc)
+    - [Python](#python)
+    - [Ruby](#ruby)
+    - [Segurança da Informação](#segurança-da-informação)
+    - [Vue.js 2.0](#vue.js-2.0)
+
 ## Cursos
 ### Algoritmos
-| Entidade Formadora | Link | Idioma | Preço | Realizado |
-| ----- | ----- | ----- | ----- | ----- |
-| Curso em Video | [Curso de Algoritmo](http://www.cursoemvideo.com/course/curso-de-algoritmos/)                        | pt-br | Free | sim |
-| Instituto Tim | [Introdução à lógica de programação](https://cursos.timtec.com.br/course/logicadeprogramacao/intro/)  | pt-br | Free |  -  |
-| School of Net | [Lógica de Programação](https://www.schoolofnet.com/curso-logica-de-programacao/)                     | pt-br | Free |  -  |
+| Entidade Formadora | Link | Idioma | Legendas | Preço | Certificação | Realizado |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Curso em Video | [Curso de Algoritmo](http://www.cursoemvideo.com/course/curso-de-algoritmos/)                        | pt-br |  -  | Free | Sim      | Sim |
+| Instituto Tim | [Introdução à lógica de programação](https://cursos.timtec.com.br/course/logicadeprogramacao/intro/)  | pt-br | Não | Free | Sim      |  -  |
+| School of Net | [Lógica de Programação](https://www.schoolofnet.com/curso-logica-de-programacao/)                     | pt-br | Não | Free | [Paga][1]  |  -  |
+[Inicio][0]
 
 ### Android
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
@@ -18,36 +54,42 @@
 | Instituto Tim | [Programação Android](https://cursos.timtec.com.br/course/android/intro/)         | pt-br | Free | - |
 | Instituto Tim | [Desenvolvimento de back-end](https://cursos.timtec.com.br/course/backend/intro/) | pt-br | Free | - |
 | School of Net | [Iniciando com Android](https://www.schoolofnet.com/curso-iniciando-com-android/) | pt-br | Free | - |
+[Inicio][0]
 
 ### AngularJS
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Instituto Tim | [Desenvolvimento Web com AngularJS](https://cursos.timtec.com.br/course/desenvolvimento-web-com-angularjs/intro/) | pt-br | Free | - |
 | School of Net | [Angular 2.0: Primeiros passos](https://www.schoolofnet.com/curso-angular-2-0-primeiros-passos/)                  | pt-br | Free | - | 
+[Inicio][0]
 
 ### CSharp
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Scholl of Net | [Iniciando com C#](https://www.schoolofnet.com/curso-iniciando-com-c/) | pt-br | Free | - |
+[Inicio][0]
 
 ### Data Science Academy
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Data Science Academy |[Big Data Fundamentos](https://www.datascienceacademy.com.br/public-course?courseid=big-data-fundamentos) | pt-br | Free | Sim |
 | Data Science Academy |[Introdução à Ciencia de Dados](https://www.datascienceacademy.com.br/public-course?courseid=introduo--cincia-de-dados) | pt-br | Free | Sim |
-| Data Science Academy |[Microsoft Power BI para Data Science](https://www.datascienceacademy.com.br/course?courseid=microsoft-power-bi-para-data-science) | pt-br | Free | Não |
+| Data Science Academy |[Microsoft Power BI para Data Science](https://www.datascienceacademy.com.br/course?courseid=microsoft-power-bi-para-data-science) | pt-br | Free | - |
 | Data Science Academy |[Python Fundamentos para Análise de Dados](https://www.datascienceacademy.com.br/public-course?courseid=python-fundamentos) | pt-br | Free | Sim |
+[Inicio][0]
 
 ### Desenvolvimento de Jogos
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Instituto Tim | [Desenho de jogos](https://cursos.timtec.com.br/course/desenhodejogos/intro/) | pt-br | Free |
 | Instituto Tim | [Programação de games](https://cursos.timtec.com.br/course/dev-jogos/intro/) | pt-br | Free |
+[Inicio][0]
 
 ### Electron
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | School of Net | [Iniciando com Electron](https://www.schoolofnet.com/curso-iniciando-com-electron/) | pt-br | Free |
+[Inicio][0]
 
 ### Empreendedorismo
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
@@ -55,26 +97,31 @@
 | Instituto Tim | [Empreendedorismo 1: Empreender com propósito](https://cursos.timtec.com.br/course/empreender-com-proposito/intro/) | pt-br | Free |
 | Instituto Tim | [Empreendedorismo 2: Como planejar seu negócio](https://cursos.timtec.com.br/course/como-planejar-seu-negocio/intro/) | pt-br | Free |
 | Instituto Tim | [Empreendedorismo 3: Como evoluir seu negócio](https://cursos.timtec.com.br/course/como-evoluir-seu-negocio/intro/) | pt-br | Free |
+[Inicio][0]
 
 ### Engenharia de Software
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Instituto Tim | [Boas práticas em desenvolvimento de software](https://cursos.timtec.com.br/course/boas-praticas-em-desenvolimento-de-software/intro/) | pt-br | Free |
+[Inicio][0]
 
 ### GIT
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | School of Net | [Git e Github](https://www.schoolofnet.com/curso-git-e-github/) | pt-br | Free |
+[Inicio][0]
 
 ### GO
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | School of Net | [Iniciando com Go para Web](https://www.schoolofnet.com/curso-iniciando-com-go-para-web/) | pt-br | Free |
+[Inicio][0]
 
 ### Heroku
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
-| School of Net | [Entrega contínua com Heroku](https://www.schoolofnet.com/curso-entrega-continua-com-heroku/) | pt-br | Free |
+| School of Net | [Entrega contínua com Heroku](https://www.schoolofnet.com/curso-entrega-continua-com-heroku/) | pt-br | Free | Sim|
+[Inicio][0]
 
 ### HTML 5
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
@@ -84,11 +131,13 @@
 | Instituto Tim | [Design de interfaces com CSS3](https://cursos.timtec.com.br/course/css3/intro/) | pt-br | Free |
 | Instituto Tim | [Desenvolvimento de front-end](https://cursos.timtec.com.br/course/desenvolvimento-de-front-end/intro/) | pt-br | Free |
 | Instituto Tim | [UX e UI Design](https://cursos.timtec.com.br/course/ux-e-ui-design/intro/) | pt-br | Free |
+[Inicio][0]
 
 ### Ionic 2
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | School of Net | [Introdução ao Ionic 2](https://www.schoolofnet.com/curso-introducao-ao-ionic-2/) | pt-br | Free |
+[Inicio][0]
 
 ### Java
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
@@ -100,47 +149,54 @@
 | Instituto Tim | [Desenvolvimento de API's em REST](https://cursos.timtec.com.br/course/desenvolvimento-de-apis-em-rest/intro/) | pt-br | Free |
 | School of Net | [Iniciando com JSP](https://www.schoolofnet.com/curso-iniciando-com-jsp/) | pt-br | Free |
 | School of Net | [Iniciando com Spring Boot](https://www.schoolofnet.com/curso-springboot/) | pt-br | Free |
+[Inicio][0]
 
 ### JavaScript
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Instituto Tim | [JavaScript: Conceitos e bibliotecas](https://cursos.timtec.com.br/course/javascript-conceitos-e-bibliotecas/intro/) | pt-br | Free |
 | School of Net | [Iniciando com Javascript](https://www.schoolofnet.com/curso-inciando-javascript/) | pt-br | Free |
+[Inicio][0]
 
 ### Laravel
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | School of Net | [Iniciando com Laravel 5.3](https://www.schoolofnet.com/curso-iniciando-com-laravel-5-3/) | pt-br | Free |
 | School of Net | [Laravel 5.3: Scout e Realtime Search no Frontend](https://www.schoolofnet.com/curso-laravel-53-scout-e-realtime-search-no-frontend/) | pt-br | Free |
+[Inicio][0]
 
 ### Linux
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Salim Aouar | [Curso Completo de Servidor Linux com Debian 7 - Gratuito](https://salimaouar.teachable.com/p/servidor-linux-debian-7) | pt-br | Free |
 | Salim Aouar | [Linux Containers com LXC + LXD ](https://salimaouar.teachable.com/p/linux-containers-com-lxc-lxd) | pt-br | Free |
+[Inicio][0]
 
 ### Marketing Digital
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Curso em Video | [Curso de Marketing Digital](http://www.cursoemvideo.com/course/curso-gratis-marketing-digital/) | pt-br | Free |
+[Inicio][0]
 
 ### MongoDB
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | School of Net | [Iniciando com MongoDB](https://www.schoolofnet.com/curso-iniciando-com-mongodb/) | pt-br | Free |
-
+[Inicio][0]
 
 ### MySQL
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Curso em Video | [Curso de MySQL](http://www.cursoemvideo.com/course/curso-banco-dados-mysql/) | pt-br | Free |
 | Instituto Tim | [Introdução ao uso de banco de dados e SQL](https://cursos.timtec.com.br/course/introbd/intro/) | pt-br | Free |
+[Inicio][0]
 
 ### Office 2016
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Curso em Video | [Curso de Word 2016](http://www.cursoemvideo.com/course/curso-de-word-2016/) | pt-br | Free |
 | Curso em Video | [Curso de Excel 2016 Essencial](http://www.cursoemvideo.com/course/curso-de-excel-2016-essencial/) | pt-br | Free |
+[Inicio][0]
 
 ### PHP
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
@@ -154,11 +210,13 @@
 | School of Net | [SOLID com PHP](https://www.schoolofnet.com/curso-solid-com-php/) | pt-br | Free |
 | School of Net | [Novidades do php 7.1](https://www.schoolofnet.com/curso-novidades-do-php71/) | pt-br | Free |
 | School of Net | [PHP Básico](https://www.schoolofnet.com/curso-php-basico/) | pt-br | Free |
+[Inicio][0]
 
 ### PhotoShop CC
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Curso em Video | [Curso de Photoshop CC](http://www.cursoemvideo.com/course/curso-photoshop/) | pt-br | Free |
+[Inicio][0]
 
 ### Python
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
@@ -172,20 +230,23 @@
 | Instituto Tim | [Desenvolvimento com Python](https://cursos.timtec.com.br/course/desenvolvimento-em-python/intro/)                      | pt-br | Free |  -  |
 | School of Net | [Iniciando com python](https://www.schoolofnet.com/curso-iniciando-com-python/)                                         | pt-br | Free | Sim |
 | School of Net | [Iniciando com ZF3](https://www.schoolofnet.com/curso-iniciando-com-zf3/)                                               | pt-br | Free |  -  |
-
+[Inicio][0]
 
 ### Ruby
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | School of Net | [Iniciando com Ruby](https://www.schoolofnet.com/curso-iniciando-com-ruby/) | pt-br | Free |
 | School of Net | [Iniciando com Ruby On Rails](https://www.schoolofnet.com/curso-iniciando-com-ruby-rails/) | pt-br | Free | 
+[Inicio][0]
 
 ### Segurança da Informação
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Solyd AED | [Introdução ao Hacking e Pentest](https://solyd.com.br/treinamentos/introducao-ao-hacking-e-pentest) | pt-br | Free|
+[Inicio][0]
 
 ### Vue.js 2.0
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | School of Net | [Vue.js 2.0](https://www.schoolofnet.com/curso-vuejs-20/) | pt-br | Free |
+[Inicio][0]
