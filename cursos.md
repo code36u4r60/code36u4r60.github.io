@@ -157,13 +157,13 @@
 ### Java
 | Entidade Formadora | Link | Idioma | Legendas | Preço | Certificação | Realizado |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Curso em Video  | [Curso de Java](http://www.cursoemvideo.com/course/curso-java-iniciante/)                                                               | pt-br | ?   | Free | Sim       | - |
-| Curso em Video  | [Curso de POO Java](http://www.cursoemvideo.com/course/curso-de-poo-java/)                                                              | pt-br | ?   | Free | Sim       | - |
-| Instituto Tim | [Introdução à programação em linguagem JAVA](https://cursos.timtec.com.br/course/programacaojava/intro/)                                  | pt-br | Não | Free | Sim       | - |
-| Instituto Tim | [Desenvolvimento Web com Java e Apache Wicket](https://cursos.timtec.com.br/course/desenvolvimento-web-com-java-e-apache-wicket/intro/)   | pt-br | Não | Free | Sim       | - |
-| Instituto Tim | [Desenvolvimento de API's em REST](https://cursos.timtec.com.br/course/desenvolvimento-de-apis-em-rest/intro/)                            | pt-br | Não | Free | Sim       | - |
-| School of Net | [Iniciando com JSP](https://www.schoolofnet.com/curso-iniciando-com-jsp/)                                                                 | pt-br | Não | Free | [Info][1] | - |
-| School of Net | [Iniciando com Spring Boot](https://www.schoolofnet.com/curso-springboot/)                                                                | pt-br | Não | Free | [Info][1] | - |
+| Curso em Video  | [Curso de Java](http://www.cursoemvideo.com/course/curso-java-iniciante/)                                                               | pt-br | ?   | Free | Sim       | Sim |
+| Curso em Video  | [Curso de POO Java](http://www.cursoemvideo.com/course/curso-de-poo-java/)                                                              | pt-br | ?   | Free | Sim       | Sim |
+| Instituto Tim | [Introdução à programação em linguagem JAVA](https://cursos.timtec.com.br/course/programacaojava/intro/)                                  | pt-br | Não | Free | Sim       |  -  |
+| Instituto Tim | [Desenvolvimento Web com Java e Apache Wicket](https://cursos.timtec.com.br/course/desenvolvimento-web-com-java-e-apache-wicket/intro/)   | pt-br | Não | Free | Sim       |  -  |
+| Instituto Tim | [Desenvolvimento de API's em REST](https://cursos.timtec.com.br/course/desenvolvimento-de-apis-em-rest/intro/)                            | pt-br | Não | Free | Sim       |  -  |
+| School of Net | [Iniciando com JSP](https://www.schoolofnet.com/curso-iniciando-com-jsp/)                                                                 | pt-br | Não | Free | [Info][1] |  -  |
+| School of Net | [Iniciando com Spring Boot](https://www.schoolofnet.com/curso-springboot/)                                                                | pt-br | Não | Free | [Info][1] |  -  |
 
 [Inicio][0]
 
