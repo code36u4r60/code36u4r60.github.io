@@ -196,7 +196,7 @@
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | Curso em Video | [Curso de Marketing Digital](http://www.cursoemvideo.com/course/curso-gratis-marketing-digital/)                          | pt-br |  ?  | Free | Sim |  -  |
 | Universidade Rock Content|[Curso de Marketing de Conteúdo 2.0](https://universidade.rockcontent.com/cursos/marketing-de-conteudo/)         | pt-br | Não | Free | Sim | Sim |
-| Universidade Rock Content|[Curso de Produção de Conteúdo para Web 2.0](https://universidade.rockcontent.com/cursos/marketing-de-conteudo/) | pt-br | Não | Free | Sim |  -  |
+| Universidade Rock Content|[Curso de Produção de Conteúdo para Web 2.0](https://universidade.rockcontent.com/cursos/marketing-de-conteudo/) | pt-br | Não | Free | Sim | Sim |
 
 [Inicio][0]
 
