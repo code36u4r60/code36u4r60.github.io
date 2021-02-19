@@ -1,66 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Eduardo Alves Fonseca Queirós">
-    <meta name="author" content="code36u4r60">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-        crossorigin="anonymous">
 
-    <title>About me...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/718f86f283.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <title>Eduardo Queirós</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Code36u4r60</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-            aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+    <header>
+      
+        <div class="navbar container">
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre mim<span class="sr-only">(current)</span></a>
-                </li>
-                <!-- Start Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">Descrição do Repositório</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                        <a class="dropdown-item" href="#">Lógica de Programação</a>
+            <div class="logo">
+                <img src="./img/logo.png" alt="" srcset="">
+            </div>
 
-                        <a class="dropdown-item" href="#">C</a>
-                        <a class="dropdown-item" href="#">C#</a>
-                    </div>
-                </li>
-            </ul>
 
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                <a class="nav-link" href="https://github.com/code36u4r60/" >Meu Repositório Git Hub</a>
-                </li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#blog" class="external-links">Blog <i class="fas fa-external-link-alt"></i></a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <nav class="social-links">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/eduardoqueiros/"><i class="fab fa-linkedin-in"></i></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/code36u4r60/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/code36u4r60/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.hackerrank.com/code36u4r60"><i class="fab fa-hackerrank"></i></a></li>
+                    <li><a href="https://gist.github.com/code36u4r60"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </nav>
+
         </div>
-        </li>
-        <!-- End Dropdown -->
-        </ul>
+
+        <!--Light Dark mode-->
+        <div class="toggle-btn">
+            <i class="fas fa-adjust"></i>
         </div>
-    </nav>
+    </header>
 
-    <center>
-        <h1>Bem vindo(a) a minha página!</h1>
-        <img src="img/Super_mario.png" alt="A minha foto">
-    </center>
+    <main>
+        <!-- Hero -->
+        <article id="hero">
+            <div class="hero-content container">
+                <div class="text">
+                    <h1>Hi!</h1>
+                    <h1>I'm <span class="name">Eduardo Queirós</span></h1>
+                    <h2>and Wellcome in my personal page</h2>
+                    <p>
+                        I am currently finishing my degree in Electrical and Computer Engineering. 
+                        Most of my skills were acquired through self-study, most of which related to computer science. 
+                        I am currently improving my skills in web development technologies, more specifically in technology derived from the JavaScript language.
+                    </p>
+                    <a href="#contact">contact me</a>
+                </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-        crossorigin="anonymous"></script>
+                <div class="profile-image">
+                    <img src="img/profile-image.png" alt="">
+                </div>
+            </div>
+
+        </article>
+
+        <article class="home">
+
+        </article>
+
+        <article class="home">
+
+        </article>
+
+    </main>
 </body>
+
+<script src="main.js"></script>
 
 </html>

@@ -1,0 +1,248 @@
+/** Base */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --title-color: #333;
+    --body-color: #696969;
+    --background-color: #ccc;
+    --foreground-color: #fff;
+    --hover-link: #ED5565;
+    --especial: #ED5565;
+    --blend-mode: normal;
+}
+
+.dark-theme {
+    --title-color: #ddd;
+    --body-color: #afafaf;
+    --background-color: #252627;
+    --foreground-color: #211f2a;
+    --hover-link: #ED5565;
+    --especial: #ED5565;
+    --blend-mode: lighten;
+}
+
+.container {
+    width: min(80vw, 1600px);
+    margin: auto;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--body-color);
+    transition: background-color 1s, color 1s;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hide{
+    display: none;
+}
+/* #region - Toogle Light Dark Mode */
+
+.toggle-btn {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 1.5rem;
+    right: 1.5rem;
+    border: 2px solid var(--body-color);
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+/* #endregion*/
+
+/* #region - Top Navbar */
+
+header {
+    background-color: #181818;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+header .navbar .logo img {
+    height: 64px;
+}
+
+header .navbar nav {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar nav ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+header .navbar nav ul li a {
+    color: #707070;
+    font-weight: 700;
+}
+
+header .navbar nav ul li a:hover, header .navbar nav ul li a.external-links:hover {
+    color: var(--hover-link);
+}
+
+header .navbar nav ul li a.external-links {
+    color: #a0a0a0;
+}
+
+header .navbar nav.social-links ul li a i {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 540px) {
+    header {
+        background-color: transparent;
+    }
+    header .navbar {
+        display: none;
+    }
+}
+
+/* #endregion */
+
+/* #region - Hero Section*/
+
+#hero {
+    display: flex;
+    height: calc(100vh - 104px);
+}
+
+#hero .hero-content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hero .hero-content .text {
+    max-width: 900px;
+}
+
+#hero .hero-content .text h1 {
+    color: var(--title-color);
+    font-size: 3.5rem;
+}
+
+#hero .hero-content .text h2 {
+    color: var(--title-color);
+    margin-top: 10px;
+    font-size: 1.9rem;
+}
+
+#hero .hero-content .text p {
+    color: var(--body-color);
+    margin-top: 26px;
+}
+
+#hero .hero-content .text span.name {
+    color: var(--especial);
+}
+
+#hero .hero-content .text a {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 12px 25px;
+    border: 3px solid #ED5565;
+    color: #ED5565;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#hero .hero-content .text a:hover {
+    color: var(--body-color);
+}
+
+#hero .hero-content .profile-image img {
+    max-width: 450px;
+    border-radius: 10px 15px 10px 90px;
+}
+
+/* #endregion */
+
+/* #Region - media */
+
+@media only screen and (max-width: 767px) {
+    .toggle-btn {
+        top: 1rem;
+        right: 1rem;
+    }
+    #hero .hero-content {
+        padding: 10px;
+    }
+    #hero .hero-content .profile-image img {
+        border-radius: 10px;
+        max-width: 200px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    header .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .navbar .logo img {
+        height: 32px;
+    }
+
+    header .navbar nav {
+        margin-top: 10px;
+    }
+
+    header .navbar nav.social-links {
+        display: none
+    }
+
+    #hero {
+        height: calc(100vh - 104px);
+    }
+
+    #hero .hero-content .profile-image img {
+        position: absolute;
+        top: -170px;
+        right: 10px;
+        max-width: 250px;
+    }
+    
+    #hero .hero-content .text h1 {
+        font-size: 2.5rem;
+    }
+    #hero .hero-content .text h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* #endregion */
