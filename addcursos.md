@@ -13,3 +13,5 @@
 | Entidade Formadora | Link | Idioma | Preço | Realizado |
 | ----- | ----- | ----- | ----- | ----- |
 | Microsoft Virtual Academy | [Conceitos básicos de C# para iniciantes](https://mva.microsoft.com/pt-br/training-courses/conceitos-bsicos-de-c-para-iniciantes-16169) | Audio:eng; Legenda:pt-br | Free | Sim |
+
+##
