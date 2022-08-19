@@ -1,0 +1,13 @@
+.wrapper {
+  padding: 0 1rem;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: calc(0rem - 27px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
