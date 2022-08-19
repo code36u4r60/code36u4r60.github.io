@@ -1,0 +1,92 @@
+.resume {
+  width: 34.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge img {
+  width: 12.8rem;
+  border-radius: 50%;
+  border: solid 0.3rem;
+  border-color: var(--bg-techs);
+}
+
+.badge h2 {
+  margin-top: 3rem;
+  font-size: 2.3rem;
+}
+
+.badge p {
+  font-size: 1.3rem;
+  line-height: 300%;
+}
+
+.badge p + p {
+  font-size: 1.6rem;
+  line-height: 200%;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.3rem;
+  line-height: 200%;
+}
+
+.personal-information {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.personal-information p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.personal-information p a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.technologies-group:not(:last-child) {
+  border-bottom: 2px solid var(--body-bg-color);
+  padding-bottom: 2rem;
+}
+
+.technology-title {
+  margin: 2rem 0;
+}
+
+.technologies {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.technologies p {
+  text-align: center;
+  min-width: 80px;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: var(--bg-techs);
+  color: var(--body-bg-color);
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
