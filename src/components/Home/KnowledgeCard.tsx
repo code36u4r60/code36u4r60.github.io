@@ -1,31 +1,32 @@
-import { GraduationCap } from 'phosphor-react'
 import { useState } from 'react'
-import styles from './Education.module.css'
+import styles from './KnowledgeCard.module.css'
 import parse from 'html-react-parser'
 
-interface Course {
+interface information {
   id: string
   name: string
   place: string
-  completeIn: string
+  dates: string
   details: string
 }
 
-interface EducationProps {
-  courses: Course[]
+interface ElementProps {
+  informations: information[]
+  title: string
+  icon: any
 }
 
-export function Education({ courses }: EducationProps) {
+export function KnowledgeCard({ title, icon, informations }: ElementProps) {
   const [showAllDetails, setShowAllDetails] = useState(false)
-  const [courseId, setCourseID] = useState('')
+  const [elementId, setElementId] = useState('')
 
   function handleShowDetails(id: string): void {
-    if (courseId === id) {
+    if (elementId === id) {
       setShowAllDetails(false)
-      setCourseID('')
+      setElementId('')
     } else {
       setShowAllDetails(true)
-      setCourseID(id)
+      setElementId(id)
     }
   }
 
@@ -37,34 +38,31 @@ export function Education({ courses }: EducationProps) {
     <section className="card">
       <header className={styles.header}>
         <h2 className={styles.title}>
-          <sup>
-            <GraduationCap size={32} weight="light" />
-          </sup>
-          Education
+          <sup>{icon}</sup>
+          {title}
         </h2>
       </header>
 
       <hr className={styles.divider} />
-
-      {courses.map((course) => (
-        <div key={course.id} className={styles.courses}>
+      {informations.map((info) => (
+        <div key={info.id} className={styles.informations}>
           <div className={styles['principal-info']}>
-            <p className={styles.date}>{course.completeIn}</p>
+            <p className={styles.date}>{info.dates}</p>
             <div>
-              <h3 className={styles.course}>{course.name}</h3>
+              <h3 className={styles.info}>{info.name}</h3>
 
-              <h3 className={styles.place}>{course.place}</h3>
-              {showAllDetails && courseId === course.id ? (
+              <h3 className={styles.place}>{info.place}</h3>
+              {showAllDetails && elementId === info.id ? (
                 <span className={styles.details}>
-                  {detailsParser(course.details)}
+                  {detailsParser(info.details)}
                 </span>
               ) : null}
             </div>
           </div>
           <div className={styles['view-more']}>
-            {course.details ? (
-              <button onClick={() => handleShowDetails(course.id)}>
-                {showAllDetails && courseId === course.id
+            {info.details ? (
+              <button onClick={() => handleShowDetails(info.id)}>
+                {showAllDetails && elementId === info.id
                   ? 'Show Less'
                   : 'Show more'}
               </button>

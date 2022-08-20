@@ -1,17 +1,39 @@
-import { Education } from '../../components/Home/Education'
 import { Resume } from '../../components/Home/Resume'
 import styles from './Home.module.css'
+import { GraduationCap, Suitcase } from 'phosphor-react'
 
-import { technologies, aboutMe, courses } from '../../db'
+import {
+  WorkExperience,
+  Technologies,
+  AboutMe,
+  AcademicEducation,
+  OtherTraining,
+} from '../../db'
+import { KnowledgeCard } from '../../components/Home/KnowledgeCard'
 
 export function Home() {
   return (
     <div className={styles.wrapper}>
       <aside>
-        <Resume technologies={technologies} aboutMe={aboutMe} />
+        <Resume technologies={Technologies} aboutMe={AboutMe} />
       </aside>
       <main>
-        <Education courses={courses} />
+        <KnowledgeCard
+          title="Academic Education"
+          icon={<GraduationCap size={32} weight="light" />}
+          informations={AcademicEducation}
+        />
+        <KnowledgeCard
+          title="Work Experience"
+          icon={<Suitcase size={32} weight="light" />}
+          informations={WorkExperience}
+        />
+
+        <KnowledgeCard
+          title="Other Training"
+          icon={<GraduationCap size={32} weight="light" />}
+          informations={OtherTraining}
+        />
       </main>
     </div>
   )
