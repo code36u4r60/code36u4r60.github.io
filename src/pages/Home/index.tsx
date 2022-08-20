@@ -1,14 +1,18 @@
-import { Main } from '../../components/Home/Main'
+import { Education } from '../../components/Home/Education'
 import { Resume } from '../../components/Home/Resume'
 import styles from './Home.module.css'
 
-import { technologies, aboutMe } from '../../db'
+import { technologies, aboutMe, courses } from '../../db'
 
 export function Home() {
   return (
-    <div className={styles.home}>
-      <Resume technologies={technologies} aboutMe={aboutMe} />
-      <Main />
+    <div className={styles.wrapper}>
+      <aside>
+        <Resume technologies={technologies} aboutMe={aboutMe} />
+      </aside>
+      <main>
+        <Education courses={courses} />
+      </main>
     </div>
   )
 }

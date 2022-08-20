@@ -1,6 +1,41 @@
 import { v4 as uuid } from 'uuid'
 
-export const courses = []
+export const courses = [
+  {
+    id: uuid(),
+    name: 'Mestrado Integrado em Engenharia Eletrotécnica e de Computadores – Ramo Telemática',
+    place: 'UTAD - Universidade Trás-os-Montes e Alto Douro',
+    completeIn: 'In progress',
+    details: ``,
+  },
+  {
+    id: uuid(),
+    name: 'Licenciatura em Ciências de Engenharia Eletrotécnica e de Computadores – Ramo Telemática',
+    place: 'UTAD - Universidade Trás-os-Montes e Alto Douro',
+    completeIn: '07/2022',
+    details: `<p>A obtenção de este curso deve-se ao facto de ter completado com sucesso todas as unidades curriculares dos três primeiros anos do Mestrado Integrado em Engenharia Eletrotécnica e de Computadores – Ramo Telemática.</p>
+    `,
+  },
+  {
+    id: uuid(),
+    name: 'Licenciatura em Engenharia Informática',
+    place: 'UFP – Universidade Fernando Pessoa',
+    completeIn: 'Interrupted',
+    details: `<p>A breve passagem pela UFP possibilitou-me obter conhecimentos em áreas como: Investigação Operacional, Base Dados, Multimédia, Desenvolvimento de Jogos de Computadores, Organização e Gestão de Empresas, Análise de Sistemas, Sistemas de Informação, entre outras.</p>
+    <p>Para além do conhecimento académico, obtive algo para mim de muito maior valor, tive o prazer de conhecer pessoas que se tornariam referência na minha vida. Infelizmente tive de interromper o ciclo.</p>
+    `,
+  },
+  {
+    id: uuid(),
+    name: 'Curso Secundário Tecnologias de Eletrotecnia / Eletrónica, da dominante Científica e Natural.',
+    place: 'Escola Secundária de Amarante',
+    completeIn: '07/2004',
+    details: `<p>Este curso tem como característica a sua componente tecnológica teórica e prática muito forte. Durante este curso foram transmitidas as bases do conhecimento de áreas como Eletricidade, Sistemas Digitais e tecnologias em geral.</p> 
+    <p>Para além de outras experiências, foi durante este percurso que tive as primeiras aventuras com a automação e com a robótica.</p>
+    
+    `,
+  },
+]
 
 export const technologies = [
   {

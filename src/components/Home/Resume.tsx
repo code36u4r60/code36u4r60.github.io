@@ -1,4 +1,5 @@
 import {
+  ArrowSquareOut,
   Envelope,
   GithubLogo,
   LinkedinLogo,
@@ -32,7 +33,7 @@ export function Resume({ technologies, aboutMe }: TechnologiesProps) {
     <section className={styles.resume}>
       <div className={`${styles.badge} card`}>
         <img src={aboutMe.avatar_url} alt="" />
-        <h2>{aboutMe.name}</h2>
+        <h1>{aboutMe.name}</h1>
         <p>{aboutMe.career}</p>
       </div>
 
@@ -56,6 +57,9 @@ export function Resume({ technologies, aboutMe }: TechnologiesProps) {
             rel="noopener noreferrer"
           >
             @code36u4r60
+            <sup>
+              <ArrowSquareOut size={13} weight="light" />
+            </sup>
           </a>
         </p>
         <p>
@@ -66,18 +70,27 @@ export function Resume({ technologies, aboutMe }: TechnologiesProps) {
             rel="noopener noreferrer"
           >
             eduardoqueiros
+            <sup>
+              <ArrowSquareOut size={13} weight="light" />
+            </sup>
           </a>
         </p>
         <p>
           <Envelope size={24} weight="light" />
-          eduardo.afq@gmail.com
+          <a href="mailto:eduardo.afq@gmail.com">
+            eduardo.afq@gmail.com
+            <sup>
+              <ArrowSquareOut size={13} weight="light" />
+            </sup>
+          </a>
         </p>
       </div>
 
       <div className="card">
+        <h2>Technologies</h2>
         {technologies.map((tech) => (
           <div key={tech.tag} className={styles['technologies-group']}>
-            <p className={styles['technology-title']}>{tech.tag}</p>
+            <h3 className={styles['technology-title']}>{tech.tag}</h3>
             <div className={styles.technologies}>
               {tech.list.map((item) => (
                 <p key={item.id}>{item.name}</p>
@@ -89,6 +102,3 @@ export function Resume({ technologies, aboutMe }: TechnologiesProps) {
     </section>
   )
 }
-
-/* A maioria das minhas habilidades foram adquiridas por meio de autoestudo, a maioria relacionada à ciência da computação.
-Atualmente estou aprimorando minhas habilidades em tecnologias de desenvolvimento web, mais especificamente em tecnologia derivada da linguagem JavaScript. */
