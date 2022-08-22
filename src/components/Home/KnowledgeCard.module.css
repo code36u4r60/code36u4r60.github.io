@@ -35,7 +35,6 @@
 }
 
 .details {
-  display: block;
   margin-top: 1rem;
 
   font-size: 1.4rem;
@@ -52,7 +51,7 @@
   padding: 0.5rem;
 
   font-size: 1.4rem;
-  font-weight: 300;
+  font-weight: 500;
   color: var(--links);
 
   border-radius: 8px;

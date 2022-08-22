@@ -1,6 +1,6 @@
 :root {
   --background: #121214;
-  --cards: #202024;
+  --cards: #1d1e22;
   --skills: #1b7292;
   --links: #2596be;
 
@@ -56,7 +56,7 @@ button {
 h1 {
   font-size: 2.3rem;
   font-weight: 900;
-  color: var(--titles);
+  color: var(--white);
 }
 
 h2 {

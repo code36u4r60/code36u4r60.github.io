@@ -53,22 +53,23 @@ export function KnowledgeCard({ title, icon, informations }: ElementProps) {
 
               <h3 className={styles.place}>{info.place}</h3>
               {showAllDetails && elementId === info.id ? (
-                <span className={styles.details}>
+                <div className={styles.details}>
                   {detailsParser(info.details)}
-                </span>
+                </div>
               ) : null}
+
+              <div className={styles['view-more']}>
+                {info.details ? (
+                  <button onClick={() => handleShowDetails(info.id)}>
+                    {showAllDetails && elementId === info.id
+                      ? 'Show Less'
+                      : 'Show more'}
+                  </button>
+                ) : (
+                  ''
+                )}
+              </div>
             </div>
-          </div>
-          <div className={styles['view-more']}>
-            {info.details ? (
-              <button onClick={() => handleShowDetails(info.id)}>
-                {showAllDetails && elementId === info.id
-                  ? 'Show Less'
-                  : 'Show more'}
-              </button>
-            ) : (
-              ''
-            )}
           </div>
         </div>
       ))}

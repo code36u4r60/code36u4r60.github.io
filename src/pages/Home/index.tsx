@@ -1,6 +1,6 @@
 import { Resume } from '../../components/Home/Resume'
 import styles from './Home.module.css'
-import { GraduationCap, Suitcase } from 'phosphor-react'
+import { Barbell, GraduationCap, Suitcase } from 'phosphor-react'
 
 import {
   WorkExperience,
@@ -19,19 +19,18 @@ export function Home() {
       </aside>
       <main>
         <KnowledgeCard
+          title="Work Experience"
+          icon={<Suitcase size={32} weight="light" />}
+          informations={WorkExperience}
+        />
+        <KnowledgeCard
           title="Academic Education"
           icon={<GraduationCap size={32} weight="light" />}
           informations={AcademicEducation}
         />
         <KnowledgeCard
-          title="Work Experience"
-          icon={<Suitcase size={32} weight="light" />}
-          informations={WorkExperience}
-        />
-
-        <KnowledgeCard
-          title="Other Training"
-          icon={<GraduationCap size={32} weight="light" />}
+          title="Training & Course"
+          icon={<Barbell size={32} weight="light" />}
           informations={OtherTraining}
         />
       </main>
