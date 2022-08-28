@@ -1,7 +1,7 @@
 import styles from './Home.module.css'
 import { Barbell, GraduationCap, Suitcase } from 'phosphor-react'
 
-import { Resume } from '../../components/Home/Resume/Resume'
+import { Resume } from '../../components/Home/Resume'
 
 import {
   WorkExperience,
@@ -10,7 +10,7 @@ import {
   AcademicEducation,
   OtherTraining,
 } from '../../db'
-import { SectionCard } from '../../components/Home/SectionCard/SectionCard'
+import { SectionCard } from '../../components/Home/SectionCard'
 
 export function Home() {
   return (

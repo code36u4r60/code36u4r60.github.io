@@ -1,6 +1,7 @@
 import styles from './SectionCard.module.css'
 import { useState } from 'react'
 import parse from 'html-react-parser'
+import { Card } from '../../Common/Card'
 
 interface information {
   id: string
@@ -35,7 +36,7 @@ export function SectionCard({ title, icon, informations }: ElementProps) {
   }
 
   return (
-    <section className="card">
+    <Card>
       <header className={styles.header}>
         <h2 className={styles.title}>
           <sup>{icon}</sup>
@@ -71,6 +72,6 @@ export function SectionCard({ title, icon, informations }: ElementProps) {
           </div>
         </div>
       ))}
-    </section>
+    </Card>
   )
 }
