@@ -1,6 +1,7 @@
-import { Resume } from '../../components/Home/Resume'
 import styles from './Home.module.css'
 import { Barbell, GraduationCap, Suitcase } from 'phosphor-react'
+
+import { Resume } from '../../components/Home/Resume/Resume'
 
 import {
   WorkExperience,
@@ -9,7 +10,7 @@ import {
   AcademicEducation,
   OtherTraining,
 } from '../../db'
-import { KnowledgeCard } from '../../components/Home/KnowledgeCard'
+import { SectionCard } from '../../components/Home/SectionCard/SectionCard'
 
 export function Home() {
   return (
@@ -18,17 +19,17 @@ export function Home() {
         <Resume technologies={Technologies} aboutMe={AboutMe} />
       </aside>
       <main>
-        <KnowledgeCard
+        <SectionCard
           title="Work Experience"
           icon={<Suitcase size={32} weight="light" />}
           informations={WorkExperience}
         />
-        <KnowledgeCard
+        <SectionCard
           title="Academic Education"
           icon={<GraduationCap size={32} weight="light" />}
           informations={AcademicEducation}
         />
-        <KnowledgeCard
+        <SectionCard
           title="Training & Course"
           icon={<Barbell size={32} weight="light" />}
           informations={OtherTraining}

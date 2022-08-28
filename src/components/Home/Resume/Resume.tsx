@@ -1,3 +1,4 @@
+import styles from './Resume.module.css'
 import {
   ArrowSquareOut,
   Envelope,
@@ -6,7 +7,6 @@ import {
   MapPin,
   Suitcase,
 } from 'phosphor-react'
-import styles from './Resume.module.css'
 
 interface Technology {
   tag: string
@@ -57,6 +57,19 @@ export function Resume({ technologies, aboutMe }: TechnologiesProps) {
             rel="noopener noreferrer"
           >
             @code36u4r60
+            <sup>
+              <ArrowSquareOut size={13} weight="light" />
+            </sup>
+          </a>
+        </p>
+        <p>
+          <GithubLogo size={24} weight="light" />
+          <a
+            href="https://github.com/Sebenta"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @sebenta
             <sup>
               <ArrowSquareOut size={13} weight="light" />
             </sup>

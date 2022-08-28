@@ -34,14 +34,6 @@
   color: var(--supporting-text);
 }
 
-.details {
-  margin-top: 1rem;
-
-  font-size: 1.4rem;
-  font-weight: 400;
-  color: var(--text);
-}
-
 .view-more {
   text-align: right;
 }

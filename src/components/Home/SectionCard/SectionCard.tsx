@@ -1,5 +1,5 @@
+import styles from './SectionCard.module.css'
 import { useState } from 'react'
-import styles from './KnowledgeCard.module.css'
 import parse from 'html-react-parser'
 
 interface information {
@@ -16,7 +16,7 @@ interface ElementProps {
   icon: any
 }
 
-export function KnowledgeCard({ title, icon, informations }: ElementProps) {
+export function SectionCard({ title, icon, informations }: ElementProps) {
   const [showAllDetails, setShowAllDetails] = useState(false)
   const [elementId, setElementId] = useState('')
 
@@ -50,14 +50,12 @@ export function KnowledgeCard({ title, icon, informations }: ElementProps) {
             <p className={styles.date}>{info.dates}</p>
             <div>
               <h3 className={styles.info}>{info.name}</h3>
-
               <h3 className={styles.place}>{info.place}</h3>
               {showAllDetails && elementId === info.id ? (
                 <div className={styles.details}>
                   {detailsParser(info.details)}
                 </div>
               ) : null}
-
               <div className={styles['view-more']}>
                 {info.details ? (
                   <button onClick={() => handleShowDetails(info.id)}>
